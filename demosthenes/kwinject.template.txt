@@ -1,0 +1,13 @@
+version;105
+config;fake;-e;gnu;-J@SRC@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/zeroes.o;@SRC@/revisions/rev@NUM@/roach_bag/zeroes.c;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/memory.o;@SRC@/revisions/rev@NUM@/roach_bag/memory.c;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/soup.o;@SRC@/revisions/rev@NUM@/roach_bag/soup.c;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/smoking_heap.o;@SRC@/revisions/rev@NUM@/roach_bag/smoking_heap.c;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/mud.o;@SRC@/revisions/rev@NUM@/roach_bag/mud.c;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/cc_memory.o;@SRC@/revisions/rev@NUM@/roach_bag/cc_memory.cc;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/entry.o;@SRC@/revisions/rev@NUM@/driver/entry.c;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/stadium.o;@SRC@/revisions/rev@NUM@/stadium/stadium.c;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/stadium2.o;@SRC@/revisions/rev@NUM@/stadium2/stadium2.c;-I;@SRC@/revisions/rev@NUM@/include
+compile;@SRC@;fake;@OUTDIR@/demosthenes_build/out@NUM@/stadium3.o;@SRC@/revisions/rev@NUM@/stadium3/stadium3.c;-I;@SRC@/revisions/rev@NUM@/include
+link;@SRC@;@OUTDIR@/demosthenes_build/out@NUM@/demosthenes;@OUTDIR@/demosthenes_build/out@NUM@/zeroes.o;@OUTDIR@/demosthenes_build/out@NUM@/memory.o;@OUTDIR@/demosthenes_build/out@NUM@/soup.o;@OUTDIR@/demosthenes_build/out@NUM@/smoking_heap.o;@OUTDIR@/demosthenes_build/out@NUM@/mud.o;@OUTDIR@/demosthenes_build/out@NUM@/cc_memory.o;@OUTDIR@/demosthenes_build/out@NUM@/entry.o;@OUTDIR@/demosthenes_build/out@NUM@/stadium.o;@OUTDIR@/demosthenes_build/out@NUM@/stadium2.o;@OUTDIR@/demosthenes_build/out@NUM@/stadium3.o
